@@ -14,8 +14,8 @@ def index_of_coincidence(text):
     
     return ic
 
-#example use
-with open("Enigma/ciphered.txt", "r") as cipher:
-    text = cipher.read()
-ic = index_of_coincidence(text)
-print(f"IoC: {ic}")
+# #example use
+# with open("Enigma/ciphered.txt", "r") as cipher:
+#     text = cipher.read()
+# ic = index_of_coincidence(text)
+# print(f"IoC: {ic}")
